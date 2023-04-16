@@ -9,9 +9,12 @@ White: #FFF
 body{
     background-color: #FFF;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header{
     height: 50px;
+    margin: 10px 15px 5px 20px ;
     
 }
 .spotylogo img{
@@ -31,4 +34,17 @@ ul{
 }
 li{
     margin: 10px;
+}
+.imagengrande img{
+ max-width: 100%;
+    height: auto;
+}
+.textofoto{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    color: #FFF;
+}
+h1{
+    font-size:200%;
 }
