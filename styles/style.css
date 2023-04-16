@@ -6,3 +6,29 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    background-color: #FFF;
+    font-family: sans-serif;
+}
+header{
+    height: 50px;
+    
+}
+.spotylogo img{
+    width: 150px;
+    height: 45px;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+  }
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+li{
+    margin: 10px;
+}
