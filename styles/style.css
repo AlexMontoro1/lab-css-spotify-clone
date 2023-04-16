@@ -1,3 +1,11 @@
+@font-face {
+    font-family:'Gotham';
+    src: url(../fonts/GothamMedium.ttf) format('truetype');
+  }
+  @font-face {
+    font-family:'Gotham-light';
+    src: url(../fonts/GothamLight.ttf) format('truetype');
+  }
 /*
 Colors:
 
@@ -8,22 +16,23 @@ White: #FFF
 */
 body{
     background-color: #FFF;
-    font-family: sans-serif;
+    font-family:'Gotham','Gotham.light';
     margin: 0;
     padding: 0;
 }
 header{
     height: 50px;
-    margin: 10px 15px 5px 20px ;
+    margin: 20px 20px 30px 20px ;
     
 }
 .spotylogo img{
-    width: 150px;
-    height: 45px;
+    width: 200px;
+    height: 60px;
   }
   nav{
     display: flex;
     align-items: center;
+    font-size: 140%;
   }
 ul{
     list-style: none;
@@ -33,18 +42,116 @@ ul{
     margin-left: auto;
 }
 li{
-    margin: 10px;
+    margin: 18px;
 }
-.imagengrande img{
- max-width: 100%;
-    height: auto;
-}
+.imagengrande {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .imagengrande img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 .textofoto{
     position: absolute;
-    top: 25%;
-    right: 15%;
     color: #FFF;
+    text-align: center;
+    top: 55%;
+    font-family: 'Gotham-light';
 }
 h1{
-    font-size:200%;
+    font-size:600%;
+    margin-bottom: auto;
+}
+.imagetext{
+    font-size: 220%;
+    font-weight: lighter;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+    }
+.announcement{
+    font-size: 250%;
+    border-bottom: #00B172 solid 5px;
+    padding: 10px;
+    align-self: center;
+
+}
+.logo{
+    display: inline-block;
+    width: 30%;
+}
+.devices{
+    position: relative;
+    top: 30px;
+}
+.logo img{
+    width: 30%;
+    height: 50%;
+}
+.greenletter{
+    color: #00B172;
+    font-size: 170%;
+}
+.lowgreenletters{
+    font-family: 'Gotham-light';
+    font-size: 160%;
+    margin: 0 50px 0 50px;
+}
+.lastsection{
+    display: flex;
+    background-color: #00B172;
+    margin: 0 2.5% 2% 2.5%;
+    color: #FFF;
+}
+.imgcontainer{
+    display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.lastsection img{
+    width: 150px;
+    height: 150px;
+    
+}
+.last-title{
+    font-size: 200%;
+    border-bottom: #FFF solid 5px;
+    padding-bottom: 15px;
+    align-self:flex-start;
+
+}
+.rightsection{
+    margin: 8% 0 5% 10%;
+    padding-left: 5%;
+    
+    
+}
+.rightsection img{
+width: 70%;
+height:auto;
+}
+.leftsection{
+    display: flex;
+    margin: 3% 0 3% 9%;
+    flex-direction: column;
+    
+}
+.leftsectiontext{
+    margin-right: 55%;
+    font-size: 140%;
+    line-height: 1.5
+}
+.littletext{
+    font-family: 'Gotham-light';
+    font-size: 90%;
 }
